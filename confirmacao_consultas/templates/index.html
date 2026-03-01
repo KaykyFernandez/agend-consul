@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirmação de Consultas</title>
+</head>
+
+<body style="font-family: Arial; max-width:600px; margin:auto;">
+
+    <h2>Enviar Agenda Médica</h2>
+
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+
+        <label>Nome do Médico:</label><br>
+        <input type="text" name="medico" required><br><br>
+
+        <label>Selecionar PDF:</label><br>
+        <input type="file" name="pdf" accept=".pdf" required><br><br>
+
+        <button type="submit">Enviar Agenda</button>
+
+    </form>
+
+</body>
+</html>
